@@ -1,5 +1,5 @@
 {
-  "name": "pn532",
+  "name": "Adafruit_PN532",
   "author": "Carl Puley <c.pulley@acme-labs.org.uk>",
   "license": "BSD",
   "version": "0.0.1",
