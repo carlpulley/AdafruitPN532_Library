@@ -1,8 +1,8 @@
 {
-  "name": "carlpulley",
+  "name": "pn532",
   "author": "Adafruit, Technobly",
   "license": "BSD",
   "version": "e1007f00ea",
   "description": "An Implementation of Adafruit's PN532 Library for the Spark Core",
-  "namespace": "AdafruitPN532_Library"
+  "namespace": "Adafruit_PN532"
 }
