@@ -225,7 +225,7 @@ uint32_t Adafruit_PN532::getFirmwareVersion(void) {
 
   pn532_packetbuffer[0] = PN532_COMMAND_GETFIRMWAREVERSION;
   
-  if (! sendCommandCheckAck(pn532_packetbuffer, 1)) {
+  if (! sendCommandCheckAck(pn532_packetbuffer, 30)) {
 #ifdef PN532DEBUG
     Serial.println("No ACK during getFirmwareVersion!");
 #endif
